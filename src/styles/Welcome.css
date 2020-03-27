@@ -1,0 +1,17 @@
+.welcomeContainer {
+  text-align: left;
+}
+
+.welcomeText {
+  margin: 0 0;
+  font-size: 1.5em;
+}
+
+.fullNameText {
+  letter-spacing: 0.2em;
+  font-size: 3em;
+}
+
+.subheadingText {
+  font-size: 1.1em;
+}
