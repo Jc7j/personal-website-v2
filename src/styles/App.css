@@ -1,0 +1,49 @@
+.App {
+  color: #fbfcfc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+@media (max-width: 425px) {
+  .App {
+    margin: 1.5em 1em;
+    justify-content: flex-start;
+  }
+}
+
+.navigationContainer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 999;
+  top: 2em;
+  right: 40em;
+  background-color: #438c68;
+  left: 0;
+}
+
+@media (max-width: 425px) {
+  .navigationContainer {
+    position: sticky;
+    padding: 1em 1em;
+    top: 0;
+    justify-content: flex-start;
+  }
+}
+
+.linkText,
+.linkText::after {
+  color: #bdd3c2;
+  margin-right: 2em;
+  font-size: 1.3em;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.linkText:hover {
+  padding: 0.1em;
+}

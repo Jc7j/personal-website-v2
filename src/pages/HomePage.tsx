@@ -1,11 +1,15 @@
 import React from 'react';
 
-import Welcome from '../components/Welcome';
+import '../styles/HomePage.css';
 
 const HomePage = () => {
   return (
-    <div>
-      <Welcome />
+    <div className="homePageContainer">
+      <p className="welcomeText">Hi, Welcome!</p>
+      <header className="fullNameText">Jason Chiang</header>
+      <p className="subheadingText">
+        Self-taught software engineer through research & development
+      </p>
     </div>
   );
 };
