@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-import HomePage from './pages/HomePage';
 import BlogPage from './pages/BlogPage';
+import HomePage from './pages/HomePage';
+import NotFound from './pages/NotFound';
 
 import './styles/App.css';
 
@@ -22,6 +23,7 @@ const App = () => {
           <Switch>
             <Route path="/" exact component={HomePage} />
             <Route path="/blog" exact component={BlogPage} />
+            <Route component={NotFound} />
           </Switch>
         </div>
       </main>
