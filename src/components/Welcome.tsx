@@ -8,7 +8,7 @@ const Welcome = () => {
       <p className="welcomeText">Hi, Welcome!</p>
       <header className="fullNameText">Jason Chiang</header>
       <p className="subheadingText">
-        Self-taught software engineer through research & development{' '}
+        Self-taught software engineer through research & development
       </p>
     </div>
   );
