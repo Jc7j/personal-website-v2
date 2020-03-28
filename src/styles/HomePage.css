@@ -1,5 +1,6 @@
-.homePageContainer {
+.introductionContainer {
   text-align: left;
+  display: block;
 }
 
 .welcomeText {
@@ -14,4 +15,23 @@
 
 .subheadingText {
   font-size: 1.1em;
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.readMoreContainer {
+  font-size: 1.2em;
+  text-align: center;
+  /* Have the text at the bottom */
+  position: absolute;
+  left: calc(50% - 54px);
+  top: calc(100% - 120px);
+}
+
+.aboutContainer {
+  display: block;
 }

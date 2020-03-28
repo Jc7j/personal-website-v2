@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+  color: #bdd3c2;
+}
+.resumeIconContainer {
+  top: -4px;
+  position: relative;
+}
+
+.resumeText {
+  font-size: 1.2em;
+}
