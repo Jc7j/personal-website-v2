@@ -9,7 +9,7 @@
   }
 }
 
-.linksContainer {
+.footerLinksContainer {
   margin: 0 20em;
   display: flex;
   justify-content: space-between;
@@ -17,7 +17,7 @@
 }
 
 @media (max-width: 425px) {
-  .linksContainer {
+  .footerLinksContainer {
     margin: 0 2em;
   }
 }

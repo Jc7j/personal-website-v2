@@ -7,7 +7,7 @@ import '../styles/Footer.css';
 const Footer = () => {
   return (
     <div className="footerContainer">
-      <div className="linksContainer">
+      <div className="footerLinksContainer">
         <IconLink
           icon="linkedin"
           href="https://www.linkedin.com/in/jasonchiangjc7j/"

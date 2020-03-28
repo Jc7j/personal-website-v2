@@ -28,7 +28,7 @@ const About = () => {
           Currently, I'm studying Data Structure & Algorithm topics while
           building side projects in React, Typescript & node.
         </p>
-        <div className="listContainer">
+        <div className="aboutListContainer">
           <span>
             <p>Software Development</p>
             {renderListText(

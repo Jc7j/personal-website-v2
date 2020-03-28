@@ -28,23 +28,30 @@
   }
 }
 
-.listContainer {
-  font-size: 0.7em;
+.aboutListContainer {
+  font-size: 0.8em;
   display: flex;
 }
 
-.listContainer > span {
+.aboutListContainer > span {
   margin-right: 5em;
 }
 
 @media (max-width: 425px) {
-  .listContainer > span {
+  .aboutListContainer > span:first-child {
+    border-right: none;
+    border-bottom: 1px solid #bdd3c2;
+  }
+}
+
+@media (max-width: 425px) {
+  .aboutListContainer > span {
     margin-right: 0;
   }
 }
 
 @media (max-width: 425px) {
-  .listContainer {
+  .aboutListContainer {
     flex-direction: column;
     font-size: 0.6em;
   }
