@@ -1,3 +1,8 @@
+.iconLinkContainer:hover {
+  border-bottom: 1px solid #093820;
+  transition: all 0.3s;
+}
+
 a {
   text-decoration: none;
   color: #bdd3c2;

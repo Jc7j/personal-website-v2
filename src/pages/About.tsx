@@ -19,13 +19,19 @@ const About = () => {
   return (
     <div id="aboutContainer" className="aboutContainer">
       <div className="aboutTextContainer">
-        <p style={{ letterSpacing: '2px', marginBottom: '2em' }}>ABOUT ME</p>
+        <EmphasizedText underline strong fontSize="1.2em">
+          *ABOUT ME
+        </EmphasizedText>
         <p className="aboutMeText">
           Hey there! I'm a self-taught software developer, also an Army National
           Guardsmen, where I started to learn how to code in late 2018. From
           then, my curiousity took over and I continued to dive deeper in
-          wanting to develop stunning projects and solving complex problems.
-          Currently, I'm studying Data Structure & Algorithm topics while
+          wanting to{' '}
+          <EmphasizedText strong color="#438c68">
+            {' '}
+            develop stunning projects and solving complex problems
+          </EmphasizedText>
+          . Currently, I'm studying Data Structure & Algorithm topics while
           building side projects in React, Typescript & node.
         </p>
         <div className="aboutListContainer">

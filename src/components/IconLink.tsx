@@ -21,6 +21,7 @@ const IconLink = (props: IconLinkProps) => {
       target="_blank"
       rel="noopener noreferrer"
       style={{ fontSize: fontSize }}
+      className="iconLinkContainer"
     >
       {icon === 'github' && <FaGithub />}
       {icon === 'linkedin' && <FaLinkedin />}

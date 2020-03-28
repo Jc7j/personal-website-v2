@@ -27,6 +27,7 @@
 .fullNameText {
   letter-spacing: 0.2em;
   font-size: 4em;
+  font-weight: 700;
 }
 
 .subheadingText {
@@ -36,7 +37,11 @@
 .linksContainer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+}
+
+a {
+  text-decoration: none;
 }
 
 .readMoreContainer {

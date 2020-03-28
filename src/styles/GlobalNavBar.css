@@ -1,0 +1,39 @@
+.navigationContainer {
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  padding-left: 10vw;
+  background-color: #438c68;
+  left: 0;
+}
+
+@media (max-width: 425px) {
+  .navigationContainer {
+    padding-left: 1em;
+    height: 45px;
+    line-height: 45px;
+    align-self: flex-start;
+  }
+}
+
+.navigationContainer > a:first-child:hover {
+  border-bottom: 1px solid #093820;
+  transition: all 0.3s;
+}
+
+.navigationContainer > a:nth-child(2):hover {
+  border-bottom: 1px solid #093820;
+  transition: all 0.3s;
+}
+
+.linkText {
+  color: #bdd3c2;
+  margin-right: 3em;
+  font-size: 2.3em;
+  align-self: center;
+  text-decoration: none;
+}

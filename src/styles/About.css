@@ -3,22 +3,23 @@
   position: relative;
   color: #fff;
   background-color: #191919;
-  min-height: 50vh;
+  min-height: 40vh;
   width: 100%;
   font-size: 3em;
 }
 
 .aboutTextContainer {
-  margin: 3em 6em;
+  margin: 3vw 10vw;
 }
 
 @media (max-width: 425px) {
   .aboutTextContainer {
-    margin: 1em;
+    margin: 0.4em;
   }
 }
 
 .aboutMeText {
+  margin-top: 2em;
   font-size: 0.6em;
 }
 

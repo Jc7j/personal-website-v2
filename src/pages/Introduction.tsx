@@ -5,6 +5,7 @@ import { FaAngleDoubleDown } from 'react-icons/fa';
 import IconLink from '../components/IconLink';
 
 import '../styles/Introduction.css';
+import EmphasizedText from '../components/EmphasizedText';
 
 const Introduction = () => {
   const onClick = (id: string) => {
@@ -16,11 +17,16 @@ const Introduction = () => {
   return (
     <div className="introductionContainer">
       <div className="textContainer">
-        <p className="welcomeText">Hey, Welcome!</p>
+        {/* <p className="welcomeText">Hey, Welcome!</p> */}
+        <EmphasizedText fontSize="2.5em" underline strong>
+          *Hey, Welcome!
+        </EmphasizedText>
         <header className="fullNameText">Jason Chiang</header>
         <p className="subheadingText">
-          <strong style={{ color: '#093820' }}>Self-taught</strong> software
-          engineer through research & development.
+          <EmphasizedText strong color="#093820">
+            Self-taught
+          </EmphasizedText>{' '}
+          software engineer through research & development.
         </p>
         <div className="linksContainer">
           <IconLink
@@ -37,6 +43,15 @@ const Introduction = () => {
             href={process.env.PUBLIC_URL + '/Resume.pdf'}
             fontSize="1.5em"
           />
+          <EmphasizedText boxedStyle fontSize="1.8em">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="mailto:chiangjason19@gmail.com?subject="
+            >
+              Lets Connect!
+            </a>
+          </EmphasizedText>
         </div>
       </div>
       <button
