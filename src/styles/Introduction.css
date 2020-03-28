@@ -1,0 +1,49 @@
+.introductionContainer {
+  text-align: left;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  margin: 1.5em 1em;
+}
+
+.textContainer {
+  margin-top: -10em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 425px) {
+  .textContainer {
+    margin-top: 15em;
+    align-self: flex-start;
+  }
+}
+
+.welcomeText {
+  margin: 0 0;
+  font-size: 1.5em;
+}
+
+.fullNameText {
+  letter-spacing: 0.2em;
+  font-size: 3em;
+}
+
+.subheadingText {
+  font-size: 1.1em;
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.readMoreContainer {
+  font-size: 1.2em;
+  text-align: center;
+  /* Have the text at the bottom */
+  position: absolute;
+  left: calc(50% - 54px);
+  top: calc(100% - 120px);
+}
