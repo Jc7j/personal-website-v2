@@ -1,7 +1,9 @@
 import React from 'react';
 
+import '../styles/BlogPage.css';
+
 const BlogPage = () => {
-  return <div>Coming Soon!</div>;
+  return <div className="blogPageContainer">Coming Soon!</div>;
 };
 
 export default BlogPage;
