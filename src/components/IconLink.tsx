@@ -13,7 +13,7 @@ interface IconLinkProps {
 }
 
 const IconLink = (props: IconLinkProps) => {
-  const { icon, fontSize = '2em', href } = props;
+  const { icon, fontSize = '3em', href } = props;
 
   return (
     <a

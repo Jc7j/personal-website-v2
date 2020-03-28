@@ -1,7 +1,8 @@
 import React from 'react';
 
-import Introduction from './Introduction';
 import About from './About';
+import Footer from './Footer';
+import Introduction from './Introduction';
 
 import '../styles/HomePage.css';
 
@@ -10,6 +11,7 @@ const HomePage = () => {
     <div className="homePageContainer">
       <Introduction />
       <About />
+      <Footer />
     </div>
   );
 };

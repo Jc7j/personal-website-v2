@@ -16,14 +16,12 @@
   }
 }
 
-.linkText,
-.linkText::after {
+.linkText {
   color: #bdd3c2;
-  /* margin-right: 3em; */
-  font-size: 1.3em;
+  margin-right: 3em;
+  font-size: 2.3em;
   align-self: center;
   text-decoration: none;
-  transition: all 0.3s;
 }
 
 @media (max-width: 425px) {

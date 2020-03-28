@@ -1,0 +1,14 @@
+.strongText {
+  font-weight: bold;
+}
+
+.underlineText {
+  border-bottom: 1px solid;
+}
+
+.boxedStyle {
+  background-color: #093820;
+  color: #fff;
+  padding: 6px;
+  font-size: 0.85em;
+}

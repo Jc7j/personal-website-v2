@@ -1,6 +1,57 @@
 .aboutContainer {
+  scroll-behavior: smooth;
+  position: relative;
   color: #fff;
   background-color: #191919;
   min-height: 50vh;
   width: 100%;
+  font-size: 3em;
+}
+
+.aboutTextContainer {
+  margin: 3em 6em;
+}
+
+@media (max-width: 425px) {
+  .aboutTextContainer {
+    margin: 1em;
+  }
+}
+
+.aboutMeText {
+  font-size: 0.6em;
+}
+
+@media (max-width: 425px) {
+  .aboutMeText {
+    font-size: 0.43em;
+  }
+}
+
+.listContainer {
+  font-size: 0.7em;
+  display: flex;
+}
+
+.listContainer > span {
+  margin-right: 5em;
+}
+
+@media (max-width: 425px) {
+  .listContainer > span {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .listContainer {
+    flex-direction: column;
+    font-size: 0.6em;
+  }
+}
+
+.list {
+  color: #fbfcfc;
+  font-size: 0.7em;
+  margin-right: -1em;
 }

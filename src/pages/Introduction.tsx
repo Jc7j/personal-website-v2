@@ -7,13 +7,20 @@ import IconLink from '../components/IconLink';
 import '../styles/Introduction.css';
 
 const Introduction = () => {
+  const onClick = (id: string) => {
+    document.querySelector(`#${id}`)?.scrollIntoView({
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <div className="introductionContainer">
       <div className="textContainer">
-        <p className="welcomeText">Hi, Welcome!</p>
+        <p className="welcomeText">Hey, Welcome!</p>
         <header className="fullNameText">Jason Chiang</header>
         <p className="subheadingText">
-          Self-taught software engineer through research & development
+          <strong style={{ color: '#093820' }}>Self-taught</strong> software
+          engineer through research & development.
         </p>
         <div className="linksContainer">
           <IconLink
@@ -32,10 +39,13 @@ const Introduction = () => {
           />
         </div>
       </div>
-      <div className="readMoreContainer">
+      <button
+        onClick={() => onClick('aboutContainer')}
+        className="readMoreContainer"
+      >
         <p>Read More</p>
         <FaAngleDoubleDown />
-      </div>
+      </button>
     </div>
   );
 };

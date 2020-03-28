@@ -3,7 +3,8 @@
   display: flex;
   min-height: 100vh;
   align-items: center;
-  margin: 1.5em 1em;
+  margin: 0 1em;
+  color: #fbfcfc;
 }
 
 .textContainer {
@@ -18,19 +19,18 @@
     align-self: flex-start;
   }
 }
-
 .welcomeText {
   margin: 0 0;
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 .fullNameText {
   letter-spacing: 0.2em;
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .subheadingText {
-  font-size: 1.1em;
+  font-size: 2em;
 }
 
 .linksContainer {
@@ -40,10 +40,28 @@
 }
 
 .readMoreContainer {
-  font-size: 1.2em;
+  font-size: 2.2em;
   text-align: center;
   /* Have the text at the bottom */
   position: absolute;
   left: calc(50% - 54px);
   top: calc(100% - 120px);
+  background-color: inherit;
+  border: none;
+}
+
+@media (max-width: 425px) {
+  .readMoreContainer {
+    left: 30%;
+    font-size: 2em;
+  }
+}
+
+.readMoreContainer:hover {
+  color: #093820;
+  font-size: 2.3em;
+  transition: all 0.5s;
+}
+.readMoreContainer:focus {
+  outline: 0;
 }
