@@ -22,18 +22,22 @@ const About = () => {
         <EmphasizedText underline strong fontSize="1.2em">
           *ABOUT ME
         </EmphasizedText>
+
         <p className="aboutMeText">
-          Hey there! I'm a self-taught software developer, also an Army National
-          Guardsmen, where I started to learn how to code in late 2018. From
-          then, my curiousity took over and I continued to dive deeper in
-          wanting to{' '}
-          <EmphasizedText strong color="#438c68">
-            {' '}
-            develop stunning projects and solving complex problems
+          Hey there! My name is Jason and I am a self-taught software engineer
+          based in Las Vegas, NV. In late 2018, I{' '}
+          <EmphasizedText strong underline color="#438c68">
+            pursued my curiosity
+          </EmphasizedText>{' '}
+          for building things on the web. Currently, I am studying Data
+          Structure & Algorithm topics while building side projects in{' '}
+          <EmphasizedText strong underline color="#438c68">
+            React, Typescript, & Node
           </EmphasizedText>
-          . Currently, I'm studying Data Structure & Algorithm topics while
-          building side projects in React, Typescript & node.
+          . A few my interests include: sports, fitness, piano, video games and
+          traveling.
         </p>
+
         <div className="aboutListContainer">
           <span>
             <p>Software Development</p>
