@@ -1,3 +1,3 @@
-# WIP
+# Hi there!
 
-Creating a new personal website looking to deploy with Netlify
+Version 2 of my personal website. Deployed with Netlify and built using React and Typescript.
